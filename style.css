@@ -1,0 +1,29 @@
+html{
+    --krasa: yellowgreen;
+    --header-height: 100px;
+}
+body{
+    --krasa: red;
+}
+h1 {
+    color: var(--krasa);
+    text-align: center;
+}
+p {
+    margin-top: 50px;
+    color: var(--krasa);
+}
+h2 {
+    color: var(--krasa);
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: var(--header-height);
+    background-color: orange;
+    width: 100vw;
+}
+main{
+    padding-top: var(--header-height);
+}
